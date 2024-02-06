@@ -1,0 +1,16 @@
+<div class='chatBox'>
+  <div class='userFrontContainer'>
+    <img class='userFrontIcon' src="./assets/img/user.png" alt="User Icon">
+    <p class='usernameFront' id='usernameFront'>
+    </p>
+  </div>
+  <input class='chatInput' id='chatInput' type="text">
+  <p class='chatMessage' id='messagesLog'></p>
+</div>
+
+
+{{!-- Dependencies --}}
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+{{!-- Socket --}}
+<script src='/socket.io/socket.io.js'></script>
+<script src='/js/chat.js'></script>
